@@ -1,0 +1,19 @@
+{
+  "name": "typography-animated-website",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "live-server src/",
+    "build": "node scripts/build.js",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "gsap": "^3.12.7",
+    "typography-animated-website": "file:"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.3.0",
+    "gh-pages": "^6.3.0",
+    "live-server": "^1.2.2"
+  }
+}
